@@ -39,6 +39,9 @@ namespace gamepad {
 
         bool _active = true;
         int _js;
+
+    protected:
+        Gamepad() = default;
     };
 
 }
