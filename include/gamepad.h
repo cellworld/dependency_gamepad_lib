@@ -28,7 +28,7 @@ namespace gamepad {
             std::queue<button_state> _events;
         };
 
-        explicit Gamepad(std::string &);
+        explicit Gamepad(const std::string &);
 
         std::vector<int32_t> axes;
         std::vector<Button> buttons;

@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace gamepad {
-    Gamepad::Gamepad(string &device_path) {
+    Gamepad::Gamepad(const string &device_path) {
         _js = open(device_path.c_str(), O_RDONLY);
 
         __u8 count;
